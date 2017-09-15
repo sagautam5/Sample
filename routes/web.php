@@ -16,3 +16,5 @@ Route::get('/',function ()
     return redirect()->to('/home');
 });
 Route::get('/home', 'HomeController@getHome');
+Route::get('/project', 'HomeController@getProject');
+Route::get('/contact', 'HomeController@getContact');

@@ -1,16 +1,28 @@
+
 <header class="site-header">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="col-md-3 col-sm-3">
-					<a href="{{URL::to('/home')}}">
-						<img class="logo pull-left" src="{{asset('image/sagar.jpg')}}"></img>
-					</a>
-				</div>
-				<div class="col-md-6 pull-right">
-					
-				</div>
-			</div>
-		</div>
-	</div>
+	<nav class="navbar navbar-static-top header-navbar">
+        <div class="container">
+            
+            <div class="collapse navbar-collapse" id="app-navbar-collapse">
+            
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a href="{{URL::to('/home')}}">
+                            HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{URL::to('/project')}}">
+                            PROJECTS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{URL::to('/contact')}}">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
