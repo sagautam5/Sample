@@ -18,4 +18,8 @@ class HomeController extends Controller
     public function getContact(){
     	return view('pages.contact');
     }
+
+    public function getAboutUs(){
+    	return view('pages.aboutus');
+    }
 }
