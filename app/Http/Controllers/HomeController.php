@@ -19,7 +19,7 @@ class HomeController extends Controller
     	return view('pages.contact');
     }
 
-    public function getAboutUs(){
-    	return view('pages.aboutus');
+    public function getAboutMe(){
+    	return view('pages.aboutme');
     }
 }

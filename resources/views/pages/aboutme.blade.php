@@ -14,7 +14,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="col-md-6">
-				<h1 class="paragraph-header">About Us</h1>
+				<h1 class="paragraph-header">About Me</h1>
 				<hr/>
 				<!-- <div class="col-md-3 logo-box">
 					<img class="logo" src="{{asset('image/sagar.jpeg')}}">

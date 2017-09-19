@@ -18,4 +18,4 @@ Route::get('/',function ()
 Route::get('/home', 'HomeController@getHome');
 Route::get('/project', 'HomeController@getProject');
 Route::get('/contact', 'HomeController@getContact');
-Route::get('/aboutus','HomeController@getAboutUs');
+Route::get('/aboutme','HomeController@getAboutMe');
