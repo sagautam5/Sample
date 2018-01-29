@@ -19,3 +19,6 @@ Route::get('/home', 'HomeController@getHome');
 Route::get('/project', 'HomeController@getProject');
 Route::get('/contact', 'HomeController@getContact');
 Route::get('/aboutme','HomeController@getAboutMe');
+
+Route::get('/dropdown','DropDownController@index');
+Route::get('category/{id}/products', 'DropDownController@getProducts');
